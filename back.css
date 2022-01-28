@@ -1,0 +1,125 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+/* nav bar */
+.age{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    background-color: #00c1b5;
+    border-bottom: 1px dotted gray;
+}
+.stage{
+    width: 96%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.back{
+    font-size: 28px;
+    color: #080b1b;
+    font-weight: bold;
+}
+.info{
+    padding-top: 10px;
+}
+.inform{
+    color: #080b1b;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* navbar ends */
+
+/* img */
+.fixed{
+    width: 25%;
+    margin: auto;
+    padding-top: 30px;
+}
+/* img ends */
+
+/* last div */
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.uno{
+    padding: 35px 30px;
+}
+.talk{
+    font-size: 24px;
+    color: #080b1b;
+    font-weight: 700;
+    line-height: 1cm;
+}
+.ikon{
+    padding-top: 10px;
+}
+i{
+    font-size: 13px;
+    padding-right: 6px;
+}
+.milk{
+    color: #080b1b;
+}
+.acy{
+    padding-top: 45px;
+}
+.policy{
+   color: #080b1b; 
+}
+.dos{
+    display: flex;
+    flex-direction: column;
+}
+.issue{
+    color: #080b1b;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.buy{
+    padding-top: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.store{
+    padding-top: 40px;
+    color: #080b1b;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.orin{
+    color: white;
+}
+.store:active,
+.buy:active,
+.issue:active {
+    color: #00c1b5;
+}
+.store:hover,
+.buy:hover,
+.issue:hover{
+    color: #ff651a;
+}
+ul{
+    padding: 205px 20px 0 0;
+    font-size: 25px;
+    line-height: 1cm;
+    list-style-type: none;
+}
+.sue{
+   text-decoration: none; 
+   color: #080b1b;
+}
+/* last div */
